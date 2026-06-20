@@ -3,36 +3,36 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 const testimonials = [
   {
-    name: "Елена Родригес",
-    role: "Директор по нейронауке, Quantum Dynamics",
+    name: "Елена В.",
+    role: "Подписчица сервиса",
     avatar: "/professional-woman-scientist.png",
     content:
-      "SynapseAI изменил наш подход к нейрореабилитации. Результаты пациентов улучшились на 340% после внедрения.",
+      "Сделала расклад на отношения поздно ночью, когда не с кем было поговорить. Толкование попало прямо в точку и реально успокоило.",
   },
   {
-    name: "Маркус Уильямс",
-    role: "Руководитель исследований, Stellar Analytics",
+    name: "Дмитрий К.",
+    role: "Пользователь",
     avatar: "/cybersecurity-expert-man.jpg",
     content:
-      "Точность и протоколы безопасности не имеют аналогов. Мы значительно ускорили клинические испытания с платформой SynapseAI.",
+      "Думал, что это просто случайные карты, но ответ оказался на удивление глубоким и связным. Теперь делаю расклад каждое утро.",
   },
   {
-    name: "Анна Ковальски",
-    role: "Вице-президент по разработке, Nova Industries",
+    name: "Анна М.",
+    role: "Подписчица сервиса",
     avatar: "/asian-woman-tech-developer.jpg",
     content:
-      "Интеграция прошла безупречно. Адаптивные алгоритмы понимают намерения пользователя лучше любой системы, что мы тестировали.",
+      "Первые три расклада бесплатно — и я сразу оформила подписку. За 300 рублей в месяц это лучше любого приложения с гаданиями.",
   },
 ]
 
 export function TestimonialsSection() {
   return (
-    <section className="py-24 px-6 bg-card">
+    <section id="testimonials" className="py-24 px-6 bg-card">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Нам доверяют лидеры</h2>
+          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Что говорят о картах</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Что говорят лидеры индустрии о нашей революционной технологии
+            Истории тех, кто уже заглянул за завесу с помощью наших раскладов
           </p>
         </div>
 
