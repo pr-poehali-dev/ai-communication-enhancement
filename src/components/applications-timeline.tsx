@@ -53,11 +53,11 @@ export function ApplicationsTimeline() {
       ),
     },
     {
-      title: "ИИ читает послание",
+      title: "Послание раскрыто",
       content: (
         <div>
           <p className="text-white text-sm md:text-base font-normal mb-6 leading-relaxed">
-            Искусственный интеллект объединяет значения карт в единое толкование именно под твой вопрос —
+            Значения карт объединяются в единое толкование именно под твой вопрос —
             подробно, по-человечески и без сухих шаблонов.
           </p>
           <div className="space-y-3">

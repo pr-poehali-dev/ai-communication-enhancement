@@ -12,7 +12,7 @@ export function Navbar() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <h1 className="font-orbitron text-xl font-bold text-white">
-              Arcana<span className="text-red-500">AI</span>
+              Arcana<span className="text-red-500">Tarot</span>
             </h1>
           </div>
 

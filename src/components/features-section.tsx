@@ -4,9 +4,9 @@ import { Badge } from "@/components/ui/badge"
 const features = [
   {
     title: "Глубокая интерпретация",
-    description: "ИИ читает карты не по шаблону, а связывает их между собой в цельное живое послание именно для тебя.",
+    description: "Карты читаются не по шаблону, а связываются между собой в цельное живое послание именно для тебя.",
     icon: "brain",
-    badge: "ИИ",
+    badge: "Точно",
   },
   {
     title: "Полная конфиденциальность",
@@ -47,7 +47,7 @@ export function FeaturesSection() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-foreground mb-4 font-sans">Почему именно мы</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Таинство древних карт и точность искусственного интеллекта в каждом раскладе
+            Таинство древних карт и глубина толкования в каждом раскладе
           </p>
         </div>
 
